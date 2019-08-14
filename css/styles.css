@@ -1,0 +1,170 @@
+
+
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Vollkorn SC', serif;
+}
+
+h1{
+  font-size: 5.625rem;
+  margin: 30px auto 0 auto;
+  font-family: 'Cormorant Upright', serif;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Supermercado One', cursive;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Supermercado One', cursive;
+  color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F5 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Vollkorn SC', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7e42ed;
+}
+
+.top-container{
+  background-color: #c2fcf6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #c2fcf6;
+  padding: 50px 0 30px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #7e42ed;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.hobbies-title{
+  margin-top: 150px;
+}
+
+.coding-img{
+  float: left;
+  margin-right: 30px;
+  width: 20%;
+}
+
+.gif-img{
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 250px;
+}
+
+.profile-pic{
+  margin-top: 100px;
+  border-radius: 20%;
+  width: 15%;;
+
+}
+
+.mount-img{
+  height: 280px;
+}
+
+
+
+.btn {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1c7ee6), color-stop(1, #23f5ea));
+	background:-moz-linear-gradient(top, #1c7ee6 5%, #23f5ea 100%);
+	background:-webkit-linear-gradient(top, #1c7ee6 5%, #23f5ea 100%);
+	background:-o-linear-gradient(top, #1c7ee6 5%, #23f5ea 100%);
+	background:-ms-linear-gradient(top, #1c7ee6 5%, #23f5ea 100%);
+	background:linear-gradient(to bottom, #1c7ee6 5%, #23f5ea 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1c7ee6', endColorstr='#23f5ea',GradientType=0);
+	background-color:#1c7ee6;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+	border:2px solid #1437c7;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Vollkorn SC', serif;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #0c2899;
+}
+.btn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #23f5ea), color-stop(1, #1c7ee6));
+	background:-moz-linear-gradient(top, #23f5ea 5%, #1c7ee6 100%);
+	background:-webkit-linear-gradient(top, #23f5ea 5%, #1c7ee6 100%);
+	background:-o-linear-gradient(top, #23f5ea 5%, #1c7ee6 100%);
+	background:-ms-linear-gradient(top, #23f5ea 5%, #1c7ee6 100%);
+	background:linear-gradient(to bottom, #23f5ea 5%, #1c7ee6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#23f5ea', endColorstr='#1c7ee6',GradientType=0);
+	background-color:#23f5ea;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
